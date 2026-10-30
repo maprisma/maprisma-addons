@@ -1,6 +1,6 @@
 #!/bin/sh
 # The agent and provider adapters as signed add-ons: generated from the Maprisma checkout
-# (tools/build-adapter-addons.py there: agent.toml + hooks.py, or the provider module), then each one
+# (tools/build-adapter-addons.py there: data only, addon.json + agent.toml for an agent), then each one
 # signed, zipped and put into the catalog by tools/release.sh. The passphrase is asked once: the key
 # goes into an ssh-agent started for this run only.
 #   tools/release-adapters.sh           MAPRISMA=<checkout> (default ../maprisma), KEY=<private key>
