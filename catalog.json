@@ -1,0 +1,871 @@
+{
+  "catalog": 1,
+  "addons": [
+    {
+      "id": "agent-agy",
+      "name": "Antigravity CLI",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Antigravity CLI on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Antigravity CLI: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent",
+        "installer"
+      ],
+      "harnesses": [
+        "agy"
+      ],
+      "reads": [
+        "Antigravity CLI's own settings and session files (~/.gemini/antigravity-cli, ~/.gemini/config, ~/.gemini/antigravity)"
+      ],
+      "detect": {
+        "commands": [
+          "agy"
+        ],
+        "paths": [
+          "~/.gemini/antigravity-cli",
+          "~/.gemini/config",
+          "~/.gemini/antigravity"
+        ]
+      },
+      "homepage": "https://antigravity.google",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "agy"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-agy-0.12.0/agent-agy-0.12.0.zip",
+      "size": 2872,
+      "sha256": "55c021b950b812c7957a919c83abd253ff9e682e1d81d0f167bbb6da4cc0999d"
+    },
+    {
+      "id": "agent-bionic",
+      "name": "LM Studio Bionic",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "LM Studio Bionic on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma LM Studio Bionic: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent",
+        "installer"
+      ],
+      "harnesses": [
+        "bionic"
+      ],
+      "reads": [
+        "LM Studio Bionic's own settings and session files (~/.lmstudio/apps/bionic)"
+      ],
+      "detect": {
+        "commands": [
+          "bionic"
+        ],
+        "paths": [
+          "~/.lmstudio/apps/bionic"
+        ]
+      },
+      "homepage": "https://lmstudio.ai",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "bionic"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-bionic-0.12.0/agent-bionic-0.12.0.zip",
+      "size": 1730,
+      "sha256": "c58dcea45f2437f1810c25760ee5d837a0c9ece45f99a7b44112904ed546ddc8"
+    },
+    {
+      "id": "agent-claude",
+      "name": "Claude Code",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Claude Code on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Claude Code: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent",
+        "updater"
+      ],
+      "harnesses": [
+        "claude"
+      ],
+      "reads": [
+        "Claude Code's own settings and session files (~/.claude, ~/.claude.json)"
+      ],
+      "detect": {
+        "commands": [
+          "claude"
+        ],
+        "paths": [
+          "~/.claude",
+          "~/.claude.json"
+        ]
+      },
+      "homepage": "https://github.com/anthropics/claude-code",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "claude"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-claude-0.12.0/agent-claude-0.12.0.zip",
+      "size": 3870,
+      "sha256": "b9009b695bcabca58345483f183e1a70ae02c68d2374b1c5c1b69adf5e4ced7d"
+    },
+    {
+      "id": "agent-codex",
+      "name": "Codex",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Codex on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Codex: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "codex"
+      ],
+      "reads": [
+        "Codex's own settings and session files (~/.codex)"
+      ],
+      "detect": {
+        "commands": [
+          "codex"
+        ],
+        "paths": [
+          "~/.codex"
+        ]
+      },
+      "homepage": "https://github.com/openai/codex",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "codex"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-codex-0.12.0/agent-codex-0.12.0.zip",
+      "size": 3508,
+      "sha256": "824a38da6a11e520bcee5243cc4ceeb99180e8d8db4bede65ca86db396a44e94"
+    },
+    {
+      "id": "agent-copilot",
+      "name": "GitHub Copilot",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "GitHub Copilot on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma GitHub Copilot: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "copilot"
+      ],
+      "reads": [
+        "GitHub Copilot's own settings and session files (~/.copilot)"
+      ],
+      "detect": {
+        "commands": [
+          "copilot"
+        ],
+        "paths": [
+          "~/.copilot"
+        ]
+      },
+      "homepage": "https://github.com/github/copilot-cli",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "copilot"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-copilot-0.12.0/agent-copilot-0.12.0.zip",
+      "size": 2198,
+      "sha256": "600a72e383dc3b3144d1372ccc7764e7d8bd4b0d82ee0afc8aef76372f3dc43a"
+    },
+    {
+      "id": "agent-crush",
+      "name": "Crush",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Crush on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Crush: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "crush"
+      ],
+      "reads": [
+        "Crush's own settings and session files (~/.config/crush, ~/.local/share/crush)"
+      ],
+      "detect": {
+        "commands": [
+          "crush"
+        ],
+        "paths": [
+          "~/.config/crush",
+          "~/.local/share/crush"
+        ]
+      },
+      "homepage": "https://github.com/charmbracelet/crush",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "crush"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-crush-0.12.0/agent-crush-0.12.0.zip",
+      "size": 1891,
+      "sha256": "d6ea2c20cb673840b39a3494c94adaad15aab6a3c995397820fb3527ab54907e"
+    },
+    {
+      "id": "agent-cursor-agent",
+      "name": "Cursor CLI",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Cursor CLI on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Cursor CLI: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "cursor-agent"
+      ],
+      "reads": [
+        "Cursor CLI's own settings and session files (~/.cursor, ~/.config/cursor)"
+      ],
+      "detect": {
+        "commands": [
+          "cursor-agent"
+        ],
+        "paths": [
+          "~/.cursor",
+          "~/.config/cursor"
+        ]
+      },
+      "homepage": "https://cursor.com/cli",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "cursor-agent"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-cursor-agent-0.12.0/agent-cursor-agent-0.12.0.zip",
+      "size": 2565,
+      "sha256": "2834759e160f1aa5893f2086118ae6bf39af9c0947a5c17d4668f345b284068c"
+    },
+    {
+      "id": "agent-dsh",
+      "name": "DeepSeek Harness",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "DeepSeek Harness on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma DeepSeek Harness: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent",
+        "installer"
+      ],
+      "harnesses": [
+        "dsh"
+      ],
+      "reads": [
+        "DeepSeek Harness's own settings and session files (~/.dsh)"
+      ],
+      "detect": {
+        "commands": [
+          "dsh"
+        ],
+        "paths": [
+          "~/.dsh"
+        ]
+      },
+      "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "dsh"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-dsh-0.12.0/agent-dsh-0.12.0.zip",
+      "size": 2029,
+      "sha256": "f85d840aa85bea3e65095109765bb66b9c42788f932bfffc8377c3b5702b1be6"
+    },
+    {
+      "id": "agent-gemini",
+      "name": "Gemini CLI",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Gemini CLI on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Gemini CLI: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "gemini"
+      ],
+      "reads": [
+        "Gemini CLI's own settings and session files (~/.gemini)"
+      ],
+      "detect": {
+        "commands": [
+          "gemini"
+        ],
+        "paths": [
+          "~/.gemini"
+        ]
+      },
+      "homepage": "https://github.com/google-gemini/gemini-cli",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "gemini"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-gemini-0.12.0/agent-gemini-0.12.0.zip",
+      "size": 1927,
+      "sha256": "81add480d6e8ad7e273c8cd72e1d1120044cadc7c7ccd43c7efc5a045177afab"
+    },
+    {
+      "id": "agent-goose",
+      "name": "Goose",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Goose on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Goose: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "goose"
+      ],
+      "reads": [
+        "Goose's own settings and session files (~/.config/goose, ~/.local/share/goose)"
+      ],
+      "detect": {
+        "commands": [
+          "goose"
+        ],
+        "paths": [
+          "~/.config/goose",
+          "~/.local/share/goose"
+        ]
+      },
+      "homepage": "https://github.com/aaif-goose/goose",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "goose"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-goose-0.12.0/agent-goose-0.12.0.zip",
+      "size": 2298,
+      "sha256": "6e94d4114963d0271a5ed7f967502d3453312f216f39515d5a0141407556cfa4"
+    },
+    {
+      "id": "agent-grok",
+      "name": "Grok",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Grok on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Grok: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "grok"
+      ],
+      "reads": [
+        "Grok's own settings and session files (~/.grok)"
+      ],
+      "detect": {
+        "commands": [
+          "grok"
+        ],
+        "paths": [
+          "~/.grok"
+        ]
+      },
+      "homepage": "https://www.npmjs.com/package/@xai-official/grok",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "grok"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-grok-0.12.0/agent-grok-0.12.0.zip",
+      "size": 1652,
+      "sha256": "98f65a45ad3ac5174729cf50d01f1d500ff53595c397876fdb052c3e6a9a25b0"
+    },
+    {
+      "id": "agent-hermes",
+      "name": "Hermes",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Hermes on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Hermes: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "hermes"
+      ],
+      "reads": [
+        "Hermes's own settings and session files (~/.hermes)"
+      ],
+      "detect": {
+        "commands": [
+          "hermes"
+        ],
+        "paths": [
+          "~/.hermes"
+        ]
+      },
+      "homepage": "https://github.com/NousResearch/hermes-agent",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "hermes"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-hermes-0.12.0/agent-hermes-0.12.0.zip",
+      "size": 2985,
+      "sha256": "65c99f5416e26e5fed27aeafaca922c4c2089859c9386639a7bbd2e6a4bf3bad"
+    },
+    {
+      "id": "agent-muse",
+      "name": "Muse Code",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Muse Code on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Muse Code: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "muse"
+      ],
+      "reads": [
+        "Muse Code's own settings and session files (~/.config/muse)"
+      ],
+      "detect": {
+        "commands": [
+          "muse"
+        ],
+        "paths": [
+          "~/.config/muse"
+        ]
+      },
+      "homepage": "",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "muse"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-muse-0.12.0/agent-muse-0.12.0.zip",
+      "size": 1564,
+      "sha256": "e443ccac1413cf125cdfdbcb44d45f24aaf832a74855e15424f83772dd73581f"
+    },
+    {
+      "id": "agent-omp",
+      "name": "Oh My Pi",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Oh My Pi on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Oh My Pi: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "omp"
+      ],
+      "reads": [
+        "Oh My Pi's own settings and session files (~/.omp)"
+      ],
+      "detect": {
+        "commands": [
+          "omp"
+        ],
+        "paths": [
+          "~/.omp"
+        ]
+      },
+      "homepage": "https://github.com/can1357/oh-my-pi",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "omp"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-omp-0.12.0/agent-omp-0.12.0.zip",
+      "size": 1907,
+      "sha256": "b80ea92245fdabbb22d1c9f2007bfe18c342ee7f346604befade73eca15a44a5"
+    },
+    {
+      "id": "agent-openclaw",
+      "name": "OpenClaw",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "OpenClaw on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma OpenClaw: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "openclaw"
+      ],
+      "reads": [
+        "OpenClaw's own settings and session files (~/.openclaw)"
+      ],
+      "detect": {
+        "commands": [
+          "openclaw"
+        ],
+        "paths": [
+          "~/.openclaw"
+        ]
+      },
+      "homepage": "https://github.com/openclaw/openclaw",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "openclaw"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-openclaw-0.12.0/agent-openclaw-0.12.0.zip",
+      "size": 2015,
+      "sha256": "20330da5735895b92ecdf62a49e655dec7470954add5d5339ab37032475c6ae2"
+    },
+    {
+      "id": "agent-opencode",
+      "name": "OpenCode",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "OpenCode on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma OpenCode: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "opencode"
+      ],
+      "reads": [
+        "OpenCode's own settings and session files (~/.local/share/opencode, ~/.config/opencode)"
+      ],
+      "detect": {
+        "commands": [
+          "opencode"
+        ],
+        "paths": [
+          "~/.local/share/opencode",
+          "~/.config/opencode"
+        ]
+      },
+      "homepage": "https://opencode.ai",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "opencode"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-opencode-0.12.0/agent-opencode-0.12.0.zip",
+      "size": 2134,
+      "sha256": "c143c4bad9ba42eaf79d97d036b14f59bc1a41d30c926345598a983effbc71d9"
+    },
+    {
+      "id": "agent-pi",
+      "name": "Pi",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "agent",
+      "icon": "system-users-symbolic",
+      "summary": "Pi on the map: its models, MCP servers, skills, settings and sessions",
+      "description": "Teaches Maprisma Pi: where it keeps its settings, which models, MCP servers and skills it uses, its session numbers, and how to install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "agent"
+      ],
+      "harnesses": [
+        "pi"
+      ],
+      "reads": [
+        "Pi's own settings and session files (~/.pi)"
+      ],
+      "detect": {
+        "commands": [
+          "pi"
+        ],
+        "paths": [
+          "~/.pi"
+        ]
+      },
+      "homepage": "https://github.com/badlogic/pi-mono",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "pi"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-pi-0.12.0/agent-pi-0.12.0.zip",
+      "size": 2828,
+      "sha256": "4c40e00f1861dcd8b6e9410a714a55cf5ca1fc27557fb441ff6a0bbaaca546b2"
+    },
+    {
+      "id": "llm-jan",
+      "name": "Jan",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "provider",
+      "icon": "network-server-symbolic",
+      "summary": "Jan on the map: found, installed, started and stopped here, its models",
+      "description": "Teaches Maprisma the local LLM Jan: how to find it and its models, start and stop it, connect agents to it, and install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "provider",
+        "installer"
+      ],
+      "reads": [
+        "Jan's model folders and its own settings"
+      ],
+      "detect": {
+        "commands": [
+          "jan",
+          "Jan"
+        ],
+        "paths": []
+      },
+      "homepage": "https://jan.ai",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "jan"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-jan-0.12.0/llm-jan-0.12.0.zip",
+      "size": 1037,
+      "sha256": "9213be1c6b658833067b815a01034a6e17c22c93fa516cc7241a1efcf00bbc77"
+    },
+    {
+      "id": "llm-koboldcpp",
+      "name": "KoboldCpp",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "provider",
+      "icon": "network-server-symbolic",
+      "summary": "KoboldCpp on the map: found, installed, started and stopped here, its models",
+      "description": "Teaches Maprisma the local LLM KoboldCpp: how to find it and its models, start and stop it, connect agents to it, and install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "provider",
+        "installer"
+      ],
+      "reads": [
+        "KoboldCpp's model folders and its own settings"
+      ],
+      "detect": {
+        "commands": [
+          "koboldcpp"
+        ],
+        "paths": [
+          "~/.koboldcpp"
+        ]
+      },
+      "homepage": "https://github.com/LostRuins/koboldcpp",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "koboldcpp"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-koboldcpp-0.12.0/llm-koboldcpp-0.12.0.zip",
+      "size": 1093,
+      "sha256": "a2123a93381e047f7451b99caf5dfaa924c58e556dd47e73942f5f75fa38a5c0"
+    },
+    {
+      "id": "llm-llamacpp",
+      "name": "llama.cpp",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "provider",
+      "icon": "network-server-symbolic",
+      "summary": "llama.cpp on the map: found, installed, started and stopped here, its models",
+      "description": "Teaches Maprisma the local LLM llama.cpp: how to find it and its models, start and stop it, connect agents to it, and install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "provider",
+        "installer"
+      ],
+      "reads": [
+        "llama.cpp's model folders and its own settings"
+      ],
+      "detect": {
+        "commands": [
+          "llama-server"
+        ],
+        "paths": [
+          "~/.cache/llama.cpp"
+        ]
+      },
+      "homepage": "https://github.com/ggml-org/llama.cpp",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "llamacpp"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-llamacpp-0.12.0/llm-llamacpp-0.12.0.zip",
+      "size": 1091,
+      "sha256": "bd05e17f5093f0b72bf5cad9ffb63f8a5db0fb342cce59b336e4c6585216dea9"
+    },
+    {
+      "id": "llm-lmstudio",
+      "name": "LM Studio",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "provider",
+      "icon": "network-server-symbolic",
+      "summary": "LM Studio on the map: found, installed, started and stopped here, its models",
+      "description": "Teaches Maprisma the local LLM LM Studio: how to find it and its models, start and stop it, connect agents to it, and install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "provider",
+        "installer"
+      ],
+      "reads": [
+        "LM Studio's model folders and its own settings"
+      ],
+      "detect": {
+        "commands": [
+          "lms"
+        ],
+        "paths": [
+          "~/.lmstudio"
+        ]
+      },
+      "homepage": "https://lmstudio.ai",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "lmstudio"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-lmstudio-0.12.0/llm-lmstudio-0.12.0.zip",
+      "size": 1076,
+      "sha256": "7251110541885aba3542f5e6676e000592bd2f80ad408966c832679fbfa80885"
+    },
+    {
+      "id": "llm-ollama",
+      "name": "Ollama",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "provider",
+      "icon": "network-server-symbolic",
+      "summary": "Ollama on the map: found, installed, started and stopped here, its models",
+      "description": "Teaches Maprisma the local LLM Ollama: how to find it and its models, start and stop it, connect agents to it, and install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "provider",
+        "installer"
+      ],
+      "reads": [
+        "Ollama's model folders and its own settings"
+      ],
+      "detect": {
+        "commands": [
+          "ollama"
+        ],
+        "paths": [
+          "~/.ollama"
+        ]
+      },
+      "homepage": "https://ollama.com",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "ollama"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-ollama-0.12.0/llm-ollama-0.12.0.zip",
+      "size": 1057,
+      "sha256": "88301ad007e3094fbf47001a6af26f18b7df27448b18a0fbb06bc91eee144c36"
+    },
+    {
+      "id": "llm-vllm",
+      "name": "vLLM",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "provider",
+      "icon": "network-server-symbolic",
+      "summary": "vLLM on the map: found, installed, started and stopped here, its models",
+      "description": "Teaches Maprisma the local LLM vLLM: how to find it and its models, start and stop it, connect agents to it, and install or remove it.",
+      "privacy": "numbers",
+      "capabilities": [
+        "provider",
+        "installer"
+      ],
+      "reads": [
+        "vLLM's model folders and its own settings"
+      ],
+      "detect": {
+        "commands": [
+          "vllm"
+        ],
+        "paths": [
+          "~/.cache/vllm"
+        ]
+      },
+      "homepage": "https://docs.vllm.ai",
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "vllm"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-vllm-0.12.0/llm-vllm-0.12.0.zip",
+      "size": 1048,
+      "sha256": "2b4e4090425ad86fd8ec1138453ef8045f7c99bd55366c9507b7fd5e1ed6304e"
+    },
+    {
+      "id": "providers-online",
+      "name": "Online providers",
+      "version": "0.12.0",
+      "api": 1,
+      "kind": "provider",
+      "icon": "network-workgroup-symbolic",
+      "summary": "The online providers agents use, by name on the map",
+      "description": "Names the online providers in agent settings and on the map: Anthropic, OpenAI, GitHub Copilot, Cursor, Google, xAI, Meta, OpenClaw, Nous Research, OpenRouter, Groq, Mistral, DeepSeek, Fireworks, Together AI, OpenCode Zen, Z.ai.",
+      "privacy": "numbers",
+      "capabilities": [
+        "provider"
+      ],
+      "reads": [
+        "Nothing of its own: the agent settings the agent add-ons read"
+      ],
+      "needs": "maprisma >= 0.12.0",
+      "provides": [
+        "anthropic",
+        "openai",
+        "github-copilot",
+        "cursor",
+        "google",
+        "xai",
+        "meta",
+        "openclaw",
+        "nous",
+        "openrouter",
+        "groq",
+        "mistral",
+        "deepseek",
+        "fireworks",
+        "together",
+        "opencode-zen",
+        "zai"
+      ],
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/providers-online-0.12.0/providers-online-0.12.0.zip",
+      "size": 1180,
+      "sha256": "71a70f6f16e7eb6119045740afd188d6683a7ab9eada8ff334e22b426e26febc"
+    }
+  ]
+}
