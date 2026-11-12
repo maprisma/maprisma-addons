@@ -4,7 +4,7 @@
     {
       "id": "agent-agy",
       "name": "Antigravity CLI",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -32,18 +32,18 @@
         ]
       },
       "homepage": "https://antigravity.google",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "agy"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-agy-0.14.4/agent-agy-0.14.4.zip",
-      "size": 2958,
-      "sha256": "6c34b9f483d1d63b80ea8601ab802d027e89af9d9bd8323fa79bdea614a43ca3"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-agy-0.14.5/agent-agy-0.14.5.zip",
+      "size": 2959,
+      "sha256": "9fcf6a7c6ba2d5ab16dd57759f99c7ae577fc7dc21448fd64da7cfcb10b19700"
     },
     {
       "id": "agent-bionic",
       "name": "LM Studio Bionic",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -69,18 +69,18 @@
         ]
       },
       "homepage": "https://lmstudio.ai",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "bionic"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-bionic-0.14.4/agent-bionic-0.14.4.zip",
-      "size": 1731,
-      "sha256": "340ef393cd6f373234836a115add5242b5a40fc23bdebdd2eb6b286efb83f93a"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-bionic-0.14.5/agent-bionic-0.14.5.zip",
+      "size": 1733,
+      "sha256": "708ea2f2f902817fd7144fc8ad78cd02a2c5d7b19c3ceac0db0d56a40f55d793"
     },
     {
       "id": "agent-claude",
       "name": "Claude Code",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -107,18 +107,18 @@
         ]
       },
       "homepage": "https://github.com/anthropics/claude-code",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "claude"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-claude-0.14.4/agent-claude-0.14.4.zip",
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-claude-0.14.5/agent-claude-0.14.5.zip",
       "size": 3949,
-      "sha256": "b09f3d2792a11853fb7b1ffeb71e2de9f6b1c673103fb07c42e3d7e4ad0e54a1"
+      "sha256": "fb997fbf52f267b78a3b6c6b315dde49a028450dfe18e05d0314ae5abe8cc8e2"
     },
     {
       "id": "agent-codex",
       "name": "Codex",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -143,18 +143,18 @@
         ]
       },
       "homepage": "https://github.com/openai/codex",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "codex"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-codex-0.14.4/agent-codex-0.14.4.zip",
-      "size": 3716,
-      "sha256": "8cacb27abbcc18614bbd6f5a5ba6635b8c65ca47c9918f0789ef5e22ed8eaee8"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-codex-0.14.5/agent-codex-0.14.5.zip",
+      "size": 3717,
+      "sha256": "ad71d0f0ad8ef4a3ac59e0f2596b1d117675a6dae5595705f5cfd0a20d807b3d"
     },
     {
       "id": "agent-copilot",
       "name": "GitHub Copilot",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -179,18 +179,18 @@
         ]
       },
       "homepage": "https://github.com/github/copilot-cli",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "copilot"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-copilot-0.14.4/agent-copilot-0.14.4.zip",
-      "size": 2199,
-      "sha256": "a813cba2ce0c58486443d4c5135eb36f3f7b285ac7aede647e45c7eff914abd1"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-copilot-0.14.5/agent-copilot-0.14.5.zip",
+      "size": 2197,
+      "sha256": "735cb1b86455d44b99a339ac1142dff716d997e6dc8b331de9d4dd60717344ae"
     },
     {
       "id": "agent-crush",
       "name": "Crush",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -216,18 +216,18 @@
         ]
       },
       "homepage": "https://github.com/charmbracelet/crush",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "crush"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-crush-0.14.4/agent-crush-0.14.4.zip",
-      "size": 1915,
-      "sha256": "740c8b16ef1ed524e6b2577bf94db25a0c710616002c70c73e3583b69ff83ad2"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-crush-0.14.5/agent-crush-0.14.5.zip",
+      "size": 1917,
+      "sha256": "417d2c4a33de03b57946d5add661559fd5d4f6ff5c5d78fa7cb5303b1b4df84e"
     },
     {
       "id": "agent-cursor-agent",
       "name": "Cursor CLI",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -253,18 +253,18 @@
         ]
       },
       "homepage": "https://cursor.com/cli",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "cursor-agent"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-cursor-agent-0.14.4/agent-cursor-agent-0.14.4.zip",
-      "size": 2566,
-      "sha256": "e72291989908b6bc256d3ec98269f8c466c38c2aa794eea8a2468a5b2532ce83"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-cursor-agent-0.14.5/agent-cursor-agent-0.14.5.zip",
+      "size": 2570,
+      "sha256": "ea2ff4ddc460fc2c1f9a49911185eb263da3a4d66bbef0cb80d430dbd188f428"
     },
     {
       "id": "agent-dsh",
       "name": "DeepSeek Harness",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -290,18 +290,18 @@
         ]
       },
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "dsh"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-dsh-0.14.4/agent-dsh-0.14.4.zip",
-      "size": 2029,
-      "sha256": "a300dc62ffe29f9ade658518f478966fdafd9bdf2fd7f82ff6044b3f2ec344da"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-dsh-0.14.5/agent-dsh-0.14.5.zip",
+      "size": 2028,
+      "sha256": "fcfa74c1f98f2f3b84739e855a98912619cc20bad584195f3c8fdad59b2107fa"
     },
     {
       "id": "agent-gemini",
       "name": "Gemini CLI",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -326,18 +326,18 @@
         ]
       },
       "homepage": "https://github.com/google-gemini/gemini-cli",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "gemini"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-gemini-0.14.4/agent-gemini-0.14.4.zip",
-      "size": 1965,
-      "sha256": "461e0d5c48b2f4502060549bcecae78cd8ca4634bf4c96885e68e41a453210c2"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-gemini-0.14.5/agent-gemini-0.14.5.zip",
+      "size": 1966,
+      "sha256": "1835492ebcf5067324ac1df056bdde41a00130264f5d9db181e9209c7030d7a7"
     },
     {
       "id": "agent-goose",
       "name": "Goose",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -363,18 +363,18 @@
         ]
       },
       "homepage": "https://github.com/aaif-goose/goose",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "goose"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-goose-0.14.4/agent-goose-0.14.4.zip",
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-goose-0.14.5/agent-goose-0.14.5.zip",
       "size": 2299,
-      "sha256": "4752a926a0995c4aa30cfee2e46f9d7763e73388e5423e1f26284bd4b20d2a59"
+      "sha256": "bbf8ae9a11408b0bd8845ec1af2bba5b3b71e6d4134cf9fc3d3830593e218c36"
     },
     {
       "id": "agent-grok",
       "name": "Grok",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -399,18 +399,18 @@
         ]
       },
       "homepage": "https://www.npmjs.com/package/@xai-official/grok",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "grok"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-grok-0.14.4/agent-grok-0.14.4.zip",
-      "size": 1694,
-      "sha256": "72db2d8e20b1b9bc4bb8f77ee26eb293316ddcbefb6eab1b6b6cf9d11609be5d"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-grok-0.14.5/agent-grok-0.14.5.zip",
+      "size": 1696,
+      "sha256": "ffd8ef0ed847d1dd8b8bd3687e53654aec9e732ce4889a4d4a2a225ed87eaf5c"
     },
     {
       "id": "agent-hermes",
       "name": "Hermes",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -435,18 +435,18 @@
         ]
       },
       "homepage": "https://github.com/NousResearch/hermes-agent",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "hermes"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-hermes-0.14.4/agent-hermes-0.14.4.zip",
-      "size": 3060,
-      "sha256": "18d44cc133072b4259b45a3854c3d9a07ead526c974b4ddc8a4031f38d433b26"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-hermes-0.14.5/agent-hermes-0.14.5.zip",
+      "size": 3059,
+      "sha256": "2fb5392db0cb165a31845e00b0fbed61bf91d401f50dd7e130fd875f980e25b5"
     },
     {
       "id": "agent-muse",
       "name": "Muse Code",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -471,18 +471,18 @@
         ]
       },
       "homepage": "",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "muse"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-muse-0.14.4/agent-muse-0.14.4.zip",
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-muse-0.14.5/agent-muse-0.14.5.zip",
       "size": 1563,
-      "sha256": "feb859af0de71bba4d34a8ae9d0df9f27fce384d627310de90a0740ff7a775f8"
+      "sha256": "a0c26a1a40878df30caba85cdf2945a4f7aeae8cc387fd4f1c65faf5b7120d57"
     },
     {
       "id": "agent-omp",
       "name": "Oh My Pi",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -507,18 +507,18 @@
         ]
       },
       "homepage": "https://github.com/can1357/oh-my-pi",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "omp"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-omp-0.14.4/agent-omp-0.14.4.zip",
-      "size": 1905,
-      "sha256": "f4c53e77f569763a24b39c8ac2471890e99a8f902998715ed1b4a5bdbfd5b567"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-omp-0.14.5/agent-omp-0.14.5.zip",
+      "size": 1906,
+      "sha256": "f322aad304d05047acaf9010e49ca773c82a8d8013745e04b4dd48f2672ec64c"
     },
     {
       "id": "agent-openclaw",
       "name": "OpenClaw",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -543,18 +543,18 @@
         ]
       },
       "homepage": "https://github.com/openclaw/openclaw",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "openclaw"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-openclaw-0.14.4/agent-openclaw-0.14.4.zip",
-      "size": 2101,
-      "sha256": "556fb6893947fc504d131ccd1c681cdba118f001f2e254dfe9e5b2c7c7eb28ac"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-openclaw-0.14.5/agent-openclaw-0.14.5.zip",
+      "size": 2100,
+      "sha256": "12bc92f49fc790ae05a6e61c5838d4dfef02446200ef5cb85370bf69b059f58e"
     },
     {
       "id": "agent-opencode",
       "name": "OpenCode",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -580,18 +580,18 @@
         ]
       },
       "homepage": "https://opencode.ai",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "opencode"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-opencode-0.14.4/agent-opencode-0.14.4.zip",
-      "size": 2132,
-      "sha256": "af548974c4ab9e09796567c4d281163b754a681d2666665d96b11e17115c64af"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-opencode-0.14.5/agent-opencode-0.14.5.zip",
+      "size": 2135,
+      "sha256": "f1c095197fc8dd17ec25658c3cc7e60e2438e6e5673c2fe367735eafa6ed8e2a"
     },
     {
       "id": "agent-pi",
       "name": "Pi",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "agent",
       "icon": "system-users-symbolic",
@@ -616,18 +616,18 @@
         ]
       },
       "homepage": "https://github.com/badlogic/pi-mono",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "pi"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-pi-0.14.4/agent-pi-0.14.4.zip",
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/agent-pi-0.14.5/agent-pi-0.14.5.zip",
       "size": 2827,
-      "sha256": "8ed57f99992dbc243ebe75a057cbc75271bf8e0f619bed095c1fdfe93ba477f1"
+      "sha256": "f497dd5a5078e8f5ff95880392fc71449d5fe9c5a539200af1e51f336148431e"
     },
     {
       "id": "llm-jan",
       "name": "Jan",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-server-symbolic",
@@ -649,18 +649,18 @@
         "paths": []
       },
       "homepage": "https://jan.ai",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "jan"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-jan-0.14.4/llm-jan-0.14.4.zip",
-      "size": 1036,
-      "sha256": "2e0c6a320d54283fbdd4dd92483e7b114a26435da28daa3aad6625af3fee4c5a"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-jan-0.14.5/llm-jan-0.14.5.zip",
+      "size": 1037,
+      "sha256": "5787cda38fbbd93d41cb81841950893e59f4acb9221fb20fab06e29428e0f464"
     },
     {
       "id": "llm-koboldcpp",
       "name": "KoboldCpp",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-server-symbolic",
@@ -683,18 +683,18 @@
         ]
       },
       "homepage": "https://github.com/LostRuins/koboldcpp",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "koboldcpp"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-koboldcpp-0.14.4/llm-koboldcpp-0.14.4.zip",
-      "size": 1091,
-      "sha256": "179e284125da2b068de4261be25ff4710eaf775e30d06d110d0ad02c95cbcd99"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-koboldcpp-0.14.5/llm-koboldcpp-0.14.5.zip",
+      "size": 1094,
+      "sha256": "cadd8f2eec771b2a87299493a55a15e16bc22b443776abd030706f33e3ff6fe0"
     },
     {
       "id": "llm-llamacpp",
       "name": "llama.cpp",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-server-symbolic",
@@ -717,18 +717,18 @@
         ]
       },
       "homepage": "https://github.com/ggml-org/llama.cpp",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "llamacpp"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-llamacpp-0.14.4/llm-llamacpp-0.14.4.zip",
-      "size": 1091,
-      "sha256": "06eb3c2319021d17a0ee8e561c3a315ce8e934c6120e4d2aa0e07b7e62bf477b"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-llamacpp-0.14.5/llm-llamacpp-0.14.5.zip",
+      "size": 1092,
+      "sha256": "f997f5cf4b8f02a1d704a1b5644a81ac2d3681cebe161a32516f151c6112284a"
     },
     {
       "id": "llm-lmstudio",
       "name": "LM Studio",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-server-symbolic",
@@ -751,18 +751,18 @@
         ]
       },
       "homepage": "https://lmstudio.ai",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "lmstudio"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-lmstudio-0.14.4/llm-lmstudio-0.14.4.zip",
-      "size": 1073,
-      "sha256": "870018fbd40e3144852ebcdbb66379e44efe57547d2811fa03470c9d5857fd9b"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-lmstudio-0.14.5/llm-lmstudio-0.14.5.zip",
+      "size": 1077,
+      "sha256": "dac6a2ef4e21ca35e21551d0adfed54c35f14cf78bee2d3858210c081e25673b"
     },
     {
       "id": "llm-ollama",
       "name": "Ollama",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-server-symbolic",
@@ -785,18 +785,18 @@
         ]
       },
       "homepage": "https://ollama.com",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "ollama"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-ollama-0.14.4/llm-ollama-0.14.4.zip",
-      "size": 1057,
-      "sha256": "c041115963cf782a612c570437b94809fea344132ff90fefae296da0a115de2f"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-ollama-0.14.5/llm-ollama-0.14.5.zip",
+      "size": 1060,
+      "sha256": "60b9aa3e3566cedb291f8907948ce19f33031c0bf357820b33fc3b2aa4eb085b"
     },
     {
       "id": "llm-strata",
       "name": "Strata",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-server-symbolic",
@@ -819,18 +819,18 @@
         ]
       },
       "homepage": "https://github.com/Niko1221/Strata",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "strata"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-strata-0.14.4/llm-strata-0.14.4.zip",
-      "size": 1099,
-      "sha256": "95cc3723313d96d083dbe16ff82259f04ebf5da838fc5f47be41153eaee93f43"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-strata-0.14.5/llm-strata-0.14.5.zip",
+      "size": 1098,
+      "sha256": "1e9c38ce99c796bdc380125c5da9b3fea7743430476092e7371f57747165585e"
     },
     {
       "id": "llm-vllm",
       "name": "vLLM",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-server-symbolic",
@@ -853,18 +853,18 @@
         ]
       },
       "homepage": "https://docs.vllm.ai",
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "vllm"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-vllm-0.14.4/llm-vllm-0.14.4.zip",
-      "size": 1049,
-      "sha256": "35ee0138c49740c1e2ee643657d51895bf36579d5bf0147114d5c8a6f1c6d49b"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/llm-vllm-0.14.5/llm-vllm-0.14.5.zip",
+      "size": 1050,
+      "sha256": "c32623bdc08348908b6dec6b79258e0ad1261abbd4d6ffb23e314a48c0a1f382"
     },
     {
       "id": "providers-online",
       "name": "Online providers",
-      "version": "0.14.4",
+      "version": "0.14.5",
       "api": 1,
       "kind": "provider",
       "icon": "network-workgroup-symbolic",
@@ -877,7 +877,7 @@
       "reads": [
         "Nothing of its own: the agent settings the agent add-ons read"
       ],
-      "needs": "maprisma >= 0.14.4",
+      "needs": "maprisma >= 0.14.5",
       "provides": [
         "anthropic",
         "openai",
@@ -897,9 +897,9 @@
         "opencode-zen",
         "zai"
       ],
-      "url": "https://github.com/maprisma/maprisma-addons/releases/download/providers-online-0.14.4/providers-online-0.14.4.zip",
-      "size": 1180,
-      "sha256": "35ef62529b3a99e9b18ac0fd4abbd337a3d867c8178187f7c1b04f8d34fbbb2a"
+      "url": "https://github.com/maprisma/maprisma-addons/releases/download/providers-online-0.14.5/providers-online-0.14.5.zip",
+      "size": 1181,
+      "sha256": "71650d66f12e4fed134542d15f284e19d6a01fc1f84129fabd1919c60a34016d"
     }
   ]
 }
